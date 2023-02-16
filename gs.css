@@ -1,0 +1,49 @@
+.speech{
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-size:18px;
+    text-decoration: solid;
+}
+.direction{
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-size:16px;
+    text-decoration: solid;
+    text-decoration-color: white;
+    text-indent: 15px;
+}
+.direction:hover{
+
+    background-color: blue;
+    color:yellow;
+}
+.zama{
+    color:violet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+ .zama:hover{
+    background-color: green;
+    text-shadow: 2px 2px blue;
+} 
+.ohano:hover{
+    text-shadow: 2px 2px blue;
+    background-color: white;
+}
+.ohano{
+    color:pink;
+    font-family:'Times New Roman', 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+table, th, td {
+    padding:12px;
+    border: 2px solid orange;
+    border-collapse:collapse;
+  }
+  
+  tr:nth-child(even) {
+    background-color: green;
+  }
+  tr:nth-child(odd) {
+    background-color: pink;
+  }
