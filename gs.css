@@ -35,6 +35,16 @@
     font-family:'Times New Roman', 'Times New Roman', Times, serif;
     font-size: 22px;
 }
+h6:hover {
+    text-shadow: 20px 20px 30px gray;
+    border-bottom: black solid;
+    font-size: 30px;
+} 
+h6 {
+    color:pink;
+    font-family:'Times New Roman', 'Times New Roman', Times, serif;
+    font-size: 22px;
+} 
 table, th, td {
     padding:12px;
     border: 2px solid orange;
@@ -47,3 +57,27 @@ table, th, td {
   tr:nth-child(odd) {
     background-color: pink;
   }
+  navbar-horizontal {
+  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-origin: padding-box;
+    color: green;
+    }
+    ul.navbar-horizontal li {
+    float:left; 
+    color:yellow;
+    background-color:pink;
+   
+    }
+    .navbar-horizontal a {
+    display:block;
+    padding: 10px;
+    color: orange;
+    }
+
+    .navbar-horizontal a:hover {  
+    background-color:green;
+    color:blue;
+    }
